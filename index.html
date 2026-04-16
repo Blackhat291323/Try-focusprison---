@@ -1,0 +1,12 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+html,body{height:100%;margin:0;display:grid;place-items:center;background:#050017}
+h1{font:clamp(28px,10vw,120px);margin:0;padding:.2em 1em;text-transform:uppercase;letter-spacing:.08em;background:linear-gradient(90deg,#ff4da6,#7b61ff,#00e5ff);-webkit-background-clip:text;background-clip:text;color:transparent;position:relative}
+h1::before,h1::after{content:"Try out focusprison";position:absolute;inset:0;opacity:.7}
+h1::before{color:#ff4da6;transform:translate(8px,-8px);filter:blur(6px);animation:g 2.2s infinite linear}
+h1::after{color:#00e5ff;transform:translate(-8px,8px);filter:blur(4px);animation:g 2.2s infinite linear reverse}
+@keyframes g{0%,100%{transform:translate(8px,-8px)}50%{transform:translate(-8px,8px)}}
+</style>
+<body><h1>Try out focusprison</h1></body>
+</html>
